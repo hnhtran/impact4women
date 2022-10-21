@@ -1,4 +1,4 @@
-import React from 'react'
+import './RecipientList.css'
 
 const RecipientList = () => {
   return (
