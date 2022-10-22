@@ -1,0 +1,22 @@
+.sidebarlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+}
+
+li {
+    margin: 1em;
+}
+
+.sublist {
+    list-style-type: none;
+    padding-left: 2vmin;
+    overflow: scroll;
+    font-size: 0.80em;
+}
+
+.divdum {
+    background-color: white;
+    height:0.5em;
+}

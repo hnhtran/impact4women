@@ -12,14 +12,18 @@ import RecipientList from '../../components/RecipientList/RecipientList';
 import { Sidebar } from '../../components/Sidebar/Sidebar';
 import { StockAdjustment } from '../../components/StockAdjustment/StockAdjustment';
 import { SupplierList } from '../../components/SupplierList/SupplierList';
+import { Container, Row, Col } from 'reactstrap';
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Dashboard/>
-      <Sidebar/>
+      <Container fluid>
+        <Row>
+        <Col xs="5" className='sidebar'><Sidebar/></Col>
 
+        <Col xs="6" className='main'>
+      <Dashboard/>
       <AddLocation/>
       <AddProduct/>
       <AddRecipient/>
@@ -30,6 +34,9 @@ function App() {
       <RecipientList/>
       <StockAdjustment/>
       <SupplierList/>
+      </Col>
+      </Row>
+      </Container>
     </div>
   );
 }
