@@ -29,7 +29,9 @@ function App() {
 
         <Col xs="8" className='main'>
           <Routes>
-            <Route path="/dashboard" element={<Dashboard/>} />
+            <Route path="/" element={<Dashboard/>} />
+            <Route path="/*" element={<Dashboard/>} />
+
           </Routes>
       {/* <Dashboard/>
       <AddLocation/>

@@ -1,0 +1,8 @@
+.dashboardPic {
+    width: 110%;
+    height: 100%;
+    background-image: url(/public/img/dashboardimg.png);
+    background-size: 100% 80vmin;
+    background-position: top;
+    background-repeat: no-repeat;
+}
