@@ -3,20 +3,35 @@
     margin: 0;
     padding: 0;
     overflow: scroll;
+    align-items: end;
 }
 
 li {
     margin: 1em;
+    padding: 1em;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+    background-color: var(--red);
 }
 
 .sublist {
     list-style-type: none;
-    padding-left: 2vmin;
+    padding-left: 9vmin;
     overflow: scroll;
     font-size: 0.80em;
 }
 
-.divdum {
-    background-color: white;
-    height:0.5em;
+.svg-icon {
+    width: 4vmin;
+    height: 4vmin;
+    margin-right: 1vmin;
+    position: relative;
+    bottom: 0.5vmin;
 }
+
+/* .svg-icon:hover {
+    filter: invert(100%);
+} */

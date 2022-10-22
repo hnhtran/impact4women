@@ -22,7 +22,7 @@ function App() {
         <Row>
         <Col xs="5" className='sidebar'><Sidebar/></Col>
 
-        <Col xs="6" className='main'>
+        <Col xs="7" className='main'>
       <Dashboard/>
       <AddLocation/>
       <AddProduct/>

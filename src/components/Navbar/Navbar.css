@@ -4,7 +4,7 @@
   }
 
 .Logo {
-    height: 12vmin;
+    height: 8vmin;
     display: flex;
     align-items: left;
 }
@@ -12,7 +12,7 @@
 .profilePicture{
     width: 8vmin;
     height: 8vmin;
-    margin: .25em;
+    margin: .25vmin;
   }
   
   .profilePicture:hover{
@@ -25,9 +25,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    background-color: rgba(236,31,39,0.05);
+    background-color: rgba(217,217,0217,0.3);
     color: #333;
-    font-size: 1.5em;
+    font-size: 3vmin;
     font-weight: bold;
     height: 15vmin;
     width: 100%;
@@ -35,3 +35,18 @@
     top: 0;
     z-index: 1;
   }
+
+  .userTitle {
+    font-size: 2vmin;
+  }
+
+.userText {
+    display: flex;
+    flex-direction: column;
+}
+
+.userinfo {
+    display: flex;
+    align-items: center;
+    margin-right: 2vmin;
+}

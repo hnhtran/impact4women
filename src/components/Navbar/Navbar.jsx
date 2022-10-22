@@ -6,7 +6,11 @@ export const NavBar = () => {
     <Navbar className='nav'>
         <img src="impactLogo.png" alt="impact logo" className='Logo'/>
         <div className="userinfo">
-        Alan Samuels
+            <div className="userText">
+            Alan Samuels
+        <span className='userTitle'>Warehouse Manager</span>
+            </div>
+        
         <img src='usericonOG.png' className="profilePicture" alt=""/>
         </div>
     </Navbar>
