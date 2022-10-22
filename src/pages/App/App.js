@@ -23,7 +23,7 @@ function App() {
         <Col xs="5" className='sidebar'><Sidebar/></Col>
 
         <Col xs="7" className='main'>
-      <Dashboard/>
+      {/* <Dashboard/>
       <AddLocation/>
       <AddProduct/>
       <AddRecipient/>
@@ -33,7 +33,7 @@ function App() {
       <ProductList/>
       <RecipientList/>
       <StockAdjustment/>
-      <SupplierList/>
+      <SupplierList/> */}
       </Col>
       </Row>
       </Container>

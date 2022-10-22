@@ -24,6 +24,11 @@ li:hover{
     font-size: 0.80em;
 }
 
+.sublist:hover{
+    color: var(--red);
+    background-color: #E3E3E3;
+}
+
 .svg-icon {
     width: 4vmin;
     height: 4vmin;
@@ -31,7 +36,3 @@ li:hover{
     position: relative;
     bottom: 0.5vmin;
 }
-
-/* .svg-icon:hover {
-    filter: invert(100%);
-} */
