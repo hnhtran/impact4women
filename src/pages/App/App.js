@@ -13,16 +13,24 @@ import { Sidebar } from '../../components/Sidebar/Sidebar';
 import { StockAdjustment } from '../../components/StockAdjustment/StockAdjustment';
 import { SupplierList } from '../../components/SupplierList/SupplierList';
 import { Container, Row, Col } from 'reactstrap';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
+  const handleDashboardClick = () => {
+    return <AddProduct/>;
+  }
+
   return (
     <div className="App">
       <NavBar/>
       <Container fluid>
         <Row>
-        <Col xs="3" className='sidebar'><Sidebar/></Col>
+        <Col xs="3" className='sidebar'><Sidebar handleDashboardClick={handleDashboardClick}/></Col>
 
         <Col xs="8" className='main'>
+          <Routes>
+            <Route path="/dashboard" element={<Dashboard/>} />
+          </Routes>
       {/* <Dashboard/>
       <AddLocation/>
       <AddProduct/>

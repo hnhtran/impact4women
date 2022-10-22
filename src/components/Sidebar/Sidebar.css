@@ -5,6 +5,11 @@
     align-items: end;
 }
 
+.sidebarlink {
+    text-decoration: none;
+    color: #333;
+}
+
 li {
     margin: 0.1vmin;
     padding: 1.5vmin;

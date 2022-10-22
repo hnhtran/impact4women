@@ -1,17 +1,21 @@
 import './Sidebar.css'
-import { ListGroup, ListGroupItem } from 'reactstrap';
+import { DashboardPic } from '../DashboardPic/DashboardPic'
+import { Link } from 'react-router-dom'
 
-export const Sidebar = () => {
+export const Sidebar = ({handleDashboardClick}) => {
+
   return (
     <>
       <ul className='sidebarlist'>
-        <li onClick={() => alert('dashboard clicked')}>
+        <Link to='/dashboard' className='sidebarlink'>
+        <li>
           <svg className='svg-icon' width="39" height="35" viewBox="0 0 39 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M37.9786 17.2132L20.7625 0.383302C20.6386 0.261796 20.4913 0.165398 20.3293 0.0996266C20.1672 0.0338548 19.9934 0 19.8179 0C19.6424 0 19.4687 0.0338548 19.3066 0.0996266C19.1445 0.165398 18.9973 0.261796 18.8733 0.383302L1.65721 17.2132C1.15565 17.7039 0.871429 18.3704 0.871429 19.0655C0.871429 20.5089 2.071 21.6824 3.54643 21.6824H5.36041V33.6915C5.36041 34.4153 5.9581 35 6.69791 35H17.1429V25.8408H21.8242V35H32.938C33.6778 35 34.2754 34.4153 34.2754 33.6915V21.6824H36.0894C36.8 21.6824 37.4813 21.4085 37.9828 20.9137C39.0236 19.8915 39.0236 18.2355 37.9786 17.2132Z" fill="currentColor" />
           </svg>
           {/* <img src="img/homeicon.svg" alt="dashboardicon" className='svg-icon'/> */}
           Dashboard
         </li>
+        </Link>
         <li>
           <svg className='svg-icon' width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M21.346 20.083V41.9689L19.8835 42.6992L0.871338 33.2282V9.49378L19.8835 0L38.8957 9.49378V26.473H35.9708V12.7801L21.346 20.083ZM19.8835 3.28631L14.3764 6.0249L28.567 13.1909L34.1655 10.4066L19.8835 3.28631ZM18.4211 38.7054V20.083L3.79629 12.7801V31.4025L18.4211 38.7054ZM5.60153 10.4066L19.8835 17.527L25.3221 14.834L11.1087 7.66805L5.60153 10.4066ZM30.1209 38.1577V35.2365H44.7456V38.1577H30.1209ZM30.1209 29.3942H44.7456V32.3154H30.1209V29.3942ZM24.271 44V41.0788H27.1959V44H24.271ZM24.271 32.3154V29.3942H27.1959V32.3154H24.271ZM24.271 38.1577V35.2365H27.1959V38.1577H24.271ZM21.346 38.7054H21.3689H21.346ZM30.1209 44V41.0788H44.7456V44H30.1209Z" fill="currentColor" />
