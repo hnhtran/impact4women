@@ -1,7 +1,11 @@
-import './Navbar.css'
+import './NavBar.css'
+import { Navbar } from 'reactstrap'
 
-export const Navbar = () => {
+export const NavBar = () => {
   return (
-    <div>Navbar</div>
+    <Navbar>
+        <img src="impactLogo.png" alt="impact logo" className='Logo'/>
+        
+    </Navbar>
   )
 }

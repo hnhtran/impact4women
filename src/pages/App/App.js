@@ -5,7 +5,7 @@ import { AddRecipient } from '../../components/AddRecipient/AddRecipient';
 import { AddSupplier } from '../../components/AddSupplier/AddSupplier';
 import { Dashboard } from '../../components/Dashboard/Dashboard';
 import { MoveProduct } from '../../components/MoveProduct/MoveProduct';
-import { Navbar } from '../../components/Navbar/Navbar';
+import { NavBar } from '../../components/NavBar/NavBar';
 import { ProductCategory } from '../../components/ProductCategory/ProductCategory';
 import { ProductList } from '../../components/ProductList/ProductList';
 import RecipientList from '../../components/RecipientList/RecipientList';
@@ -16,7 +16,7 @@ import { SupplierList } from '../../components/SupplierList/SupplierList';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <NavBar/>
       <Dashboard/>
       <Sidebar/>
 
