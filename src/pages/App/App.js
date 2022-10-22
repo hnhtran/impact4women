@@ -20,7 +20,7 @@ function App() {
       <NavBar/>
       <Container fluid>
         <Row>
-        <Col xs="4" className='sidebar'><Sidebar/></Col>
+        <Col xs="3" className='sidebar'><Sidebar/></Col>
 
         <Col xs="8" className='main'>
       {/* <Dashboard/>

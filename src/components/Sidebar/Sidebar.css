@@ -1,7 +1,8 @@
 .sidebarlist {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-left: -4.6vmin;
+    margin-right: -1.4vmin;
+    padding-top: 2vmin;
     align-items: end;
 }
 
