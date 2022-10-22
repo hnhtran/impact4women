@@ -1,5 +1,37 @@
+* {
+    font-family: Georgia, 'Nimbus Roman No9 L', 'Century Schoolbook L', serif;
+    box-sizing: border-box;
+  }
+
 .Logo {
     height: 12vmin;
     display: flex;
     align-items: left;
 }
+
+.profilePicture{
+    width: 8vmin;
+    height: 8vmin;
+    margin: .25em;
+  }
+  
+  .profilePicture:hover{
+    width: 8.5vmin;
+    height: 8.5vmin;
+  }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 15vmin;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
