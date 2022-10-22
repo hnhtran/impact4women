@@ -2,13 +2,12 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: scroll;
     align-items: end;
 }
 
 li {
-    margin: 1em;
-    padding: 1em;
+    margin: 0.1vmin;
+    padding: 1.5vmin;
 }
 
 li:hover{
@@ -20,8 +19,7 @@ li:hover{
 .sublist {
     list-style-type: none;
     padding-left: 9vmin;
-    overflow: scroll;
-    font-size: 0.80em;
+    font-size: 1.6vmin;
 }
 
 .sublist:hover{

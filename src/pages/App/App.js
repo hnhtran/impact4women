@@ -20,9 +20,9 @@ function App() {
       <NavBar/>
       <Container fluid>
         <Row>
-        <Col xs="5" className='sidebar'><Sidebar/></Col>
+        <Col xs="4" className='sidebar'><Sidebar/></Col>
 
-        <Col xs="7" className='main'>
+        <Col xs="8" className='main'>
       {/* <Dashboard/>
       <AddLocation/>
       <AddProduct/>
