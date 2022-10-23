@@ -4,7 +4,7 @@
 }
 
 .sidebar {
-  position: fixed;
+  /* position: fixed; */
   top: 15vmin;
   background-color: #E3E3E3;
   font-size: 2vmin;
@@ -13,11 +13,11 @@
 }
 
 .main {
-  position: fixed;
-  padding-top: 3vmin;
+  /* position: fixed; */
+  /* padding-top: 3vmin; */
   top: 15vmin;
-  left: 40vmin;
-  height: 100vh;
+  left: 33vmin;
+  height: 100vmin;
   font-size: 1.3em;
   font-weight: bold;
 }

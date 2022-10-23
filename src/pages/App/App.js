@@ -27,11 +27,11 @@ function App() {
         <Row>
         <Col xs="3" className='sidebar'><Sidebar handleDashboardClick={handleDashboardClick}/></Col>
 
-        <Col xs="8" className='main'>
+        <Col xs="9" className='main'>
           <Routes>
             <Route path="/" element={<Dashboard/>} />
+            <Route path="/productList" element={<ProductList/>} />
             <Route path="/*" element={<Dashboard/>} />
-
           </Routes>
       {/* <Dashboard/>
       <AddLocation/>
